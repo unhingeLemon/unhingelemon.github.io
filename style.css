@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #202020;
+  color: white;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.about {
+  padding: auto;
+  padding-top: 5vh;
+}
+
+.intro {
+  flex-direction: column;
+  align-items: center !important;
+  justify-content: center;
+  margin: auto;
+}
+
+.img {
+  width: 55vw;
+  height: 55vh;
+  padding: 20px;
+}
