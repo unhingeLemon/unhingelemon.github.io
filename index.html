@@ -9,6 +9,7 @@
     <title>Mark - Full Stack Developer</title>
 </head>
 <body>
+
     <nav class="navbar sticky-top  navbar-expand-lg navbar-dark" >
         <div class="container-fluid ">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,10 +53,10 @@
 
       <section id="about" class="d-flex flex-column align-items-center ">
 
-        <h2>Who am I?</h2>
+        <h2 class="about2">Who am I?</h2>
         <div class="d-flex flex-column align-items-center">
-          <p class="short-desc">I am a computer science student in FEU Institute of Technology</p>
-          <div  class="d-flex justify-content-evenly" style="width: 80vw">
+          <p class="short-desc">I am <strong>Mark Angelo Capili</strong> currently studying Computer Science in FEU Institute of Technology</p>
+          <div  class="d-flex justify-content-evenly" style="width: 100vw">
             <div class="skills">
               <h6>Proficient in:</h6>
               <ul>
@@ -83,39 +84,94 @@
 
       <section id="projects" class="d-flex flex-column align-items-center ">
 
-        <h2>Who am I?</h2>
-        <div class="d-flex flex-column align-items-center">
-          <p class="short-desc">I am a computer science student in FEU Institute of Technology</p>
-          <div  class="d-flex justify-content-evenly" style="width: 80vw">
-            <div class="skills">
-              <h6>Proficient in:</h6>
-              <ul>
-                <li>Mongo DB</li>
-                <li>Express</li>
-                <li>React.js</li>
-                <li>Node.js</li>
-              </ul>
+        <h2>Projects</h2>
+
+        
+        <div class="row">
+          <div class="col-lg card t">
+            <img src="./tindahan.jpg" class="card-img-top " alt="...">
+
+            <div class="infos">
+              <h5>
+                E-Commerce App
+              </h5>
+              <p>
+                An e-commerce app made in MERN Stack mentored by Brad Traversy.
+              </p>
+              <button type="button" 
+              onclick="window.open('https://tindahan-ecommerce.herokuapp.com/','_blank')"
+               class="btn btn-primary">Visit
+              </button>
             </div>
-            <div class="skills">
-              <h6>I also have a knowledge on:</h6>
-              <ul>
-                <li>C++</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>Web Design</li>
-              </ul>
+
+
+          </div>
+
+          <div class="col-lg card" >
+            <img src="./projectmanager.jpg" class="card-img-top" alt="...">
+            <div class="infos">
+              <h5>
+                Project Manager
+              </h5>
+              <p>
+                A list-making Application just like Trello.
+              </p>
+              <button type="button" 
+              onclick="window.open('https://project-manager-s.herokuapp.com/','_blank')"
+               class="btn btn-primary">Visit
+              </button>
             </div>
           </div>
-        
+          
+
+
         </div>
+        <div class="row">
+          
+          <div class="col-lg card" >
+            <img src="./githubfinder.jpg" class="card-img-top" alt="...">
+            <div class="infos">
+              <h5>
+                Github Finder
+              </h5>
+              <p>
+                A github user finder using github REST API.
+              </p>
+              <button type="button" 
+              onclick="window.open('https://github-finderrr.netlify.app/','_blank')"
+               class="btn btn-primary">Visit
+              </button>
+            </div>
+      
+
+            
+          </div>
+
+          <div class="col-lg card" >
+            <img src="./covidtracker.jpg" class="card-img-top" alt="...">
+            <div class="infos">
+              <h5>
+                COVID-19 Tracker
+              </h5>
+              <p>
+                Made in Python using Tkinter module and using REST API to get the datas.
+              </p>
+              <button type="button" 
+              onclick="window.open('https://github.com/unhingeLemon/COVID-19-Tracker','_blank')"
+               class="btn btn-primary">Visit
+              </button>
+            </div>
+          </div>
+  
+        </div>
+        
+    
         
       </section>
   
 
 
-    <!-- <div class="jumbotron">About Page</div>
 
-    <div class="jumbotron">Projects Page</div>
-    <div class="jumbotron">Contac Page</div> -->
+
 </body>
 </html>
