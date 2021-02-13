@@ -2,12 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #202020;
+  background-color: #202020 !important;
   color: white;
 }
 
+.navbar {
+  border-bottom: 2px solid #707070;
+}
 .navbar-nav {
   margin: auto;
+}
+
+.navbar-toggler {
+  margin-left: auto;
 }
 
 .about {
@@ -26,4 +33,42 @@
   width: 55vw;
   height: 55vh;
   padding: 20px;
+}
+
+li {
+  list-style: none;
+}
+ul {
+  float: left;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* .skills {
+  margin: 2em 6vw;
+} */
+
+.short-desc {
+  margin-top: 20px;
+}
+
+#home {
+  padding-bottom: 12vh;
+  border-bottom: 1px solid #707070;
+}
+
+#about {
+  padding: 12vh 50px;
+  border-bottom: 1px solid #707070;
+}
+
+#projects {
+  padding: 12vh 50px;
+  border-bottom: 1px solid #707070;
+}
+
+@media only screen and (max-width: 600px) {
+  .img {
+    display: none;
+  }
 }
