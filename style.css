@@ -1,9 +1,21 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #202020;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #202020;
   color: white;
+}
+
+p {
+  text-align: center;
 }
 
 .navbar {
@@ -19,7 +31,7 @@
 
 .about {
   padding: auto;
-  padding-top: 5vh;
+  padding-top: 4rem;
 }
 
 .intro {
@@ -53,7 +65,7 @@ ul {
 
 .short-desc {
   margin-top: 20px;
-  padding: 0 12vw;
+  padding: 0 3rem;
 }
 
 #home {
@@ -62,20 +74,40 @@ ul {
 }
 
 #about {
-  padding: 12vh 50px;
+  padding: 12vh 3.5vw;
   border-bottom: 1px solid #707070;
 }
 
 #projects {
-  padding: 12vh 50px;
+  padding: 12vh 3.5vw;
   border-bottom: 1px solid #707070;
 }
 
-.card {
+#contact {
+  padding: 12vh 3.5vw;
+  border-bottom: 1px solid #707070;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact > h4 {
+  padding-bottom: 20px;
+  border-bottom: 2px solid gray;
+  text-align: center;
+}
+#contact > h5 {
+  text-align: center;
   margin: 20px;
+}
+
+.card {
+  margin: 20px 0;
   border-radius: 20px;
   background-color: #202020;
   border: none;
+  padding: 20px;
 }
 
 .infos {
@@ -83,7 +115,7 @@ ul {
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid white;
-  padding: 20px;
+  padding: 20px 40px;
 }
 .btn {
   width: 100px;
@@ -93,6 +125,27 @@ ul {
 
 .card-img-top {
   border-radius: 20px;
+}
+
+i {
+  font-size: 20px;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  cursor: pointer;
+  opacity: 50%;
+  transition: 0.3s ease-in-out;
 }
 
 @media only screen and (max-width: 900px) {
