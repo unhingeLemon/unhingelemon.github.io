@@ -70,7 +70,7 @@ ul {
 }
 
 #home {
-  padding-bottom: 12vh;
+  padding: 12vh 3.5vw;
   border-bottom: 1px solid #707070;
 }
 
