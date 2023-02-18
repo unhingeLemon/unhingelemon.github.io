@@ -64,6 +64,7 @@ ul {
 } */
 
 .short-desc {
+  width: 50%;
   margin: 20px 0;
   padding: 0 3rem;
   padding-bottom: 1rem;
