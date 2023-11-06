@@ -118,11 +118,14 @@ ul {
   align-items: center;
   border-bottom: 1px solid white;
   padding: 20px 40px;
+  height: 70%;
+}
+.no-img{
+  height: 100% !important;
 }
 .btn {
   width: 100px;
-  margin: auto;
-  padding: auto;
+
 }
 
 .card-img-top {
